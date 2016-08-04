@@ -224,7 +224,7 @@ if __name__ == '__main__':
         'training_params': {
             'save_every': 1,
             'batch_size': 20,
-            'nb_epoch': 2,
+            'nb_epoch': 101,
             'validation_split': 0.1,
             'optimizer': Adam(clipnorm=1e-2),
         },
