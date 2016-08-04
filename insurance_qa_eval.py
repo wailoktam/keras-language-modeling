@@ -240,7 +240,7 @@ if __name__ == '__main__':
             # recurrent
             'n_lstm_dims': 141,  # * 2
 
-            'initial_embed_weights': np.load('models/word2vec_100_dim.h5'),
+            'initial_embed_weights': np.load('word2vec_100_dim.embeddings'),
             'similarity_dropout': 0.5,
         },
 
