@@ -1,7 +1,7 @@
 from __future__ import print_function
 
 import os
-
+os.environ['INSURANCE_QA'] = '/home/ubuntu/insurance_qa_python'
 import sys
 import random
 from time import strftime, gmtime
@@ -224,7 +224,7 @@ if __name__ == '__main__':
         'training_params': {
             'save_every': 1,
             'batch_size': 20,
-            'nb_epoch': 50,
+            'nb_epoch': 2,
             'validation_split': 0.1,
             'optimizer': Adam(clipnorm=1e-2),
         },
